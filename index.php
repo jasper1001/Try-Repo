@@ -12,10 +12,17 @@
   <body>
     <p>
      <?php
+	 
+	 $firstName ="Jasper";
+	 $Age = 22;
      echo "<table>";
+	  echo "<tr>";
+     echo "<td class='tabledata'>FirstName</td>";
+     echo "<td class='tabledata' >Age</td>";
+     echo "</tr>";
      echo "<tr>";
-     echo "<td class='tabledata'>Name</td>";
-     echo "<td>Jasper</td>";
+     echo "<td>".$firstName."</td>";
+     echo "<td>".$Age."</td>";
      echo "</tr>";
      echo "</table>";
 		?>
